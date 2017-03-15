@@ -257,7 +257,7 @@ package es.unileon.prg.tema5;
          String cadena = "Viaje al Parnaso";
          String otraCadena = "Viaje al Olimpo";
       // Inicio modificacion
-	System.out.println(cadena.compareTo(otraCadena));
+
         // Fin modificacion
       }
    }
