@@ -32,5 +32,16 @@ public class Profesor {
 		_niu = niu;
 		_nombre = nombre;
 	}
+	
+	public String toString() {
+	
+		StringBuffer salida = new StringBuffer();
+	
+		salida.append("NIU: "+_niu+" ");
+		salida.append("Nombre: "+_nombre+" ");
+	
+		return salida.toString();
+	}
+	
 }
 

@@ -43,4 +43,53 @@ APARTADO 030104
 		 [java] Int   : -2147483646		Lo mismo que el byte
 		 [java] f: 1.3E22				
 		 
-		 
+APARTADO 030201
+	
+	EJERCICIO 10:
+	
+       public void ejercicio10() {
+         cabecera("10", "");
+         String cadena = "Viaje al Parnaso";
+         String otraCadena = "Viaje al Olimpo";
+      	 //Inicio modificacion
+		 System.out.println(cadena.compareTo(otraCadena));
+         //Fin modificacion
+      }
+		
+	 [java] 
+     [java] 
+     [java] Practica P-VAR
+     [java] 
+     [java] Bloque: Cadenas de caracteres - Clase <<String>>
+     [java] Ejercicio: 10
+     [java] 
+     [java] Descripcion: 
+     [java] 
+     [java] 
+     [java] 1
+
+	 El metodo compareTo(), lo que hace es comparar caracter a caracter en codigo ASCII y lo va 	 restando, y el resultado final es la suma de todas esas restas.
+	 
+	 
+APARTADO 030202
+	
+	EJERCICIO 01:
+	
+		La diferencia entre length y capacity es que capacity te dice cuanto puedes añadir, sin 		embargo length te dice la longitud exacta.
+		
+APARTADO 030203
+	
+	EJERCICIO 01:
+		
+		Al ejecutarlo por primera vez te sale la dirección de memoria de donde está guardado 			alumno. Pero al quitar los comentarios, te imprime ya el toString.
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
